@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Dataset files (too large for git, but keep folder structure)
+Datasets/*.npz
+Datasets/**/*.npz
+
+# Model files (can be regenerated)
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
